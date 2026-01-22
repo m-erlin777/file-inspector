@@ -1,0 +1,191 @@
+{
+    "signatures": [
+        {
+            "type_name": "PNG Image",
+            "category": "image",
+            "magic_value": "89504E470D0A1A0A",
+            "offset": 0,
+            "match_length": 8,
+            "confidence_weight": 1.0,
+            "allowed_extensions": [".png"],
+            "description": "Standard PNG image header",
+            "revision": 1
+        },
+        {
+            "type_name": "JPEG Image",
+            "category": "image",
+            "magic_value": "FFD8FFE0",
+            "offset": 0,
+            "match_length": 4,
+            "confidence_weight": 1.0,
+            "allowed_extensions": [".jpg", ".jpeg"],
+            "description": "Standard JPEG image header",
+            "revision": 1
+        },
+        {
+            "type_name": "GIF Image",
+            "category": "image",
+            "magic_value": "47494638",
+            "offset": 0,
+            "match_length": 4,
+            "confidence_weight": 1.0,
+            "allowed_extensions": [".gif"],
+            "description": "GIF image header",
+            "revision": 1
+        },
+        {
+            "type_name": "PDF Document",
+            "category": "document",
+            "magic_value": "25504446",
+            "offset": 0,
+            "match_length": 4,
+            "confidence_weight": 1.0,
+            "allowed_extensions": [".pdf"],
+            "description": "PDF file header",
+            "revision": 1
+        },
+        {
+            "type_name": "ZIP Archive / DOCX / XLSX / JAR",
+            "category": "archive",
+            "magic_value": "504B0304",
+            "offset": 0,
+            "match_length": 4,
+            "confidence_weight": 1.0,
+            "allowed_extensions": [".zip", ".docx", ".xlsx", ".jar"],
+            "description": "ZIP-based container formats",
+            "revision": 1
+        },
+        {
+            "type_name": "Microsoft Office Word 97-2003",
+            "category": "document",
+            "magic_value": "D0CF11E0",
+            "offset": 0,
+            "match_length": 4,
+            "confidence_weight": 1.0,
+            "allowed_extensions": [".doc", ".xls", ".ppt"],
+            "description": "Legacy MS Office file header",
+            "revision": 1
+        },
+        {
+            "type_name": "Windows PE Executable",
+            "category": "executable",
+            "magic_value": "4D5A",
+            "offset": 0,
+            "match_length": 2,
+            "confidence_weight": 1.0,
+            "allowed_extensions": [".exe", ".dll", ".sys"],
+            "description": "Standard PE (Portable Executable) header",
+            "revision": 1
+        },
+        {
+            "type_name": "Linux ELF Executable",
+            "category": "executable",
+            "magic_value": "7F454C46",
+            "offset": 0,
+            "match_length": 4,
+            "confidence_weight": 1.0,
+            "allowed_extensions": [".elf"],
+            "description": "Linux ELF executable header",
+            "revision": 1
+        },
+        {
+            "type_name": "RAR Archive",
+            "category": "archive",
+            "magic_value": "526172211A07",
+            "offset": 0,
+            "match_length": 6,
+            "confidence_weight": 1.0,
+            "allowed_extensions": [".rar"],
+            "description": "RAR archive header",
+            "revision": 1
+        },
+        {
+            "type_name": "7-Zip Archive",
+            "category": "archive",
+            "magic_value": "377ABCAF271C",
+            "offset": 0,
+            "match_length": 6,
+            "confidence_weight": 1.0,
+            "allowed_extensions": [".7z"],
+            "description": "7-Zip archive header",
+            "revision": 1
+        },
+        {
+            "type_name": "MP3 Audio",
+            "category": "audio",
+            "magic_value": "494433",
+            "offset": 0,
+            "match_length": 3,
+            "confidence_weight": 1.0,
+            "allowed_extensions": [".mp3"],
+            "description": "MP3 audio file header (ID3 tag)",
+            "revision": 1
+        },
+        {
+            "type_name": "MP4 Video / MOV",
+            "category": "video",
+            "magic_value": "0000001866747970",
+            "offset": 0,
+            "match_length": 8,
+            "confidence_weight": 1.0,
+            "allowed_extensions": [".mp4", ".mov"],
+            "description": "MP4/MOV video container header",
+            "revision": 1
+        },
+        {
+            "type_name": "ISO Disc Image",
+            "category": "disk image",
+            "magic_value": "43443030",
+            "offset": 32769,
+            "match_length": 4,
+            "confidence_weight": 0.9,
+            "allowed_extensions": [".iso"],
+            "description": "ISO 9660 standard disc image header (offset 32769)",
+            "revision": 1
+        },
+        {
+            "type_name": "Apple DMG Disk Image",
+            "category": "disk image",
+            "magic_value": "78DA5A24",
+            "offset": 0,
+            "match_length": 4,
+            "confidence_weight": 0.9,
+            "allowed_extensions": [".dmg"],
+            "description": "Apple DMG disk image",
+            "revision": 1
+        },
+        {
+            "type_name": "Android APK",
+            "category": "archive",
+            "magic_value": "504B0304",
+            "offset": 0,
+            "match_length": 4,
+            "confidence_weight": 1.0,
+            "allowed_extensions": [".apk"],
+            "description": "APK file (ZIP-based container)",
+            "revision": 1
+        },
+        {
+            "type_name": "Windows MSI Installer",
+            "category": "installer",
+            "magic_value": "D0CF11E0",
+            "offset": 0,
+            "match_length": 4,
+            "confidence_weight": 0.9,
+            "allowed_extensions": [".msi"],
+            "description": "Microsoft installer (MSI) file header",
+            "revision": 1
+        },
+        {
+            "type_name": "EXE Packed / UPX",
+            "category": "executable",
+            "magic_value": "55505821",
+            "offset": 0,
+            "match_length": 4,
+            "confidence_weight": 0.8,
+            "allowed_extensions": [".exe"],
+            "description": "Packed executable (UPX)",
+            "revision": 1
+        }
+    ]
+}
